@@ -29,3 +29,5 @@ JavaScript может управлять DOM.
 
 
 
+<p> = paragraph
+<b> = bold
