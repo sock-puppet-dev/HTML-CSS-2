@@ -4,24 +4,14 @@
 # macOS
 .DS_Store
 
-# Ignored document/media files
-examples/chapter005/5_2_5/docs/document.pdf
-examples/chapter005/5_2_5/docs/ganges.MOV
-examples/chapter005/5_2_5/docs/worddocument.doc
+# Large media files
+*.MOV
+*.mov
+*.mp4
+*.ogg
+*.webm
+*.wav
+*.mp3
 
-examples/chapter005/5_2_6/docs/document.pdf
-examples/chapter005/5_2_6/docs/ganges.MOV
-examples/chapter005/5_2_6/docs/worddocument.doc
-
-examples/chapter006/6_7/video/Dancing.mp4
-examples/chapter006/6_7/video/Dancing.ogg
-examples/chapter006/6_7/video/Dancing.webm
-
-examples/chapter006/6_8/sound/Einstein.wav
-examples/chapter006/6_8/sound/FBE017_-_Juergen_Wolf_au.mp3
-examples/chapter006/6_8/sound/FBE017_-_Juergen_Wolf_au.ogg
-examples/chapter006/6_8/sound/Hallo.ogg
-examples/chapter006/6_8/sound/Hallo.wav
-
-examples/chapter006/6_9_2/animation.swf
-examples/chapter006/6_9_2/Drone.mov
+# Old Flash files
+*.swf
