@@ -1,0 +1,23 @@
+/* File: style.css
+ */
+
+/* Styling for all HTML elements where title
+   has the attribute value deprecated
+ */
+ [title=deprecated] {
+  color: red;
+  text-decoration: line-through;
+}
+
+/* Styling of HTML elements where title contains the
+   the word "Rheinwerk" in the attribute value
+ */
+[title~=Rheinwerk] { font-weight: bold; }
+
+/* Styling of HTML elements where hreflang
+   begins with the attribute value en followed by 
+   a hyphen
+ */
+[hreflang|=en] { font-weight: bold; }
+
+

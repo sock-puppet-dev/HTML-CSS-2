@@ -1,0 +1,15 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.000
+- The <i>first line</i> of text is displayed for the first 4 seconds.
+
+2
+00:00:06.000 --> 00:00:16.000
+- Now a second line gets 
+displayed for <b>10 seconds</b>.
+
+
+3
+00:00:17.000 --> 00:00:20.000
+- This is the final subtitle ...

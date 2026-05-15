@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Loading the Appropriate Image Using picture</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  <h1>The picture element in use</h1>
+  <p>
+    <picture> 
+      <source srcset="images/HK-1024.jpg, images/HK-1024-hd.jpg 2x"
+              media="(min-width: 1024px)">
+      <source srcset="images/HK-640.jpg, images/HK-640-hd.jpg 2x"
+              media="(min-width: 640px)">
+      <source srcset="images/HK-480.jpg, images/HK-480-hd.jpg 2x"
+              media="(min-width: 480px)">
+      <!-- Fallback for old browsers -->
+      <img src="images/HK-480.jpg" alt="Hong Kong Island">
+   </picture>
+  </p>
+  </body>
+</html>

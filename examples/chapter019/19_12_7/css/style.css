@@ -1,0 +1,14 @@
+.demo {
+    background: black;
+    color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid red;
+}
+
+.default {
+    border: 1px solid black;
+    background: silver;
+    padding: 1em;
+    margin-bottom: 1em;
+}

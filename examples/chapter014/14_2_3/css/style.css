@@ -1,0 +1,10 @@
+body { 
+  font: 1.1em/120% Georgia, Times, serif;
+}
+h1 { font-size: 1.4em; }
+p {  
+  font-size: 1em;
+}
+.outside { list-style-position: outside; }
+.inside { list-style-position: inside; }
+li { background: antiquewhite; }

@@ -1,0 +1,10 @@
+
+/* 
+   Styles for the example: /examples/chapter009/9_1_7/index3.html
+*/
+:target { background: lightgray; }
+div#einblenden { display: none; }
+div#einblenden:target { display: block; }
+
+
+

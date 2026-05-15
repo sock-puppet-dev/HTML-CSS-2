@@ -1,0 +1,14 @@
+/* 
+   Styles for the example: /examples/chapter010/10_1/index.html
+*/
+
+body {
+    background: gray;
+    font-family: Arial, Verdana;
+    color: white;
+}
+
+article {
+    background: lightblue;
+    color: black;
+}

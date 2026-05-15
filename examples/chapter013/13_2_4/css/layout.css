@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* --------------------------------------------------
+        General basic settings                              
+ ----------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit; 
+}
+body {
+   color: #1d2731;            /* Ivory Black*/
+   background-color: #efefef; /* Neutral */
+   font-family: Georgia; 
+}
+ul {
+  padding: 0;
+}
+.wrapper {
+   background-color: #ff3b3f; /* Watermelon */
+}
+/* ------------------------------------------------------------------
+     CSS properties for mobile devices (smaller than 640 px)            
+       + Arrange everything in one column below each other                                           
+-------------------------------------------------------------------- */
+.header {
+   text-align: center;
+   padding: 1em;
+   background-color: #07889b; /* Teal */
+   color: #efefef;            /* Neutral */  
+   border-bottom: 1px solid #efefef;
+}
+.aside {
+  border-top: 1px solid #a9a9a9;
+  padding-top: 0.5em;
+}
+.footer {
+   background-color: #a9a9a9; /* Carbon */
+   color: #efefef;            /* Neutral */
+   padding: 1em;
+   text-align: center; 
+   border-top: 1px solid #efefef;
+}
+.nav-ul {
+   background-color: #ff383f; /* Watermelon */
+   margin:0;
+}
+.nav-li {
+   list-style: none;
+   margin-left: 0;
+   border-bottom: 1px solid #efefef;
+}
+.nav-li-a  {
+    padding: 0.6em 2rem;
+    display: block; 
+}
+.nav-ul a:link {
+    text-decoration: none; 
+}
+.nav-ul a:link, .nav-ul a:visited {
+   color: #fff; /* white*/
+}
+.nav-ul a:hover, .nav-ul a:focus, .nav-ul a:active {
+   background-color: #000; /* Black */
+   color: #efefef; /* Neutral */
+}
+.nav-active {
+   color: #000; /* Black */
+   background-color: #fff; /* White */
+}
+.container {
+   background-color: #fff; /* weiss */
+   padding: 2em 2rem;
+}
+
+/*-----------------------------------------------------   
+     Tablet version from 640 pixels                          
+       640px / 16px/em = 40em  
+       + 2 columns
+         - Header and navigation on top below each other
+		 - Main content and sidebar next to each other
+		 - Footer at the bottom
+------------------------------------------------------*/
+@media screen and (min-width: 40em) {
+  .header {
+    padding: 1.5em;
+    text-align: left; 
+  }
+  .container {
+    padding: 3rem 0;
+    display: block;
+    overflow: auto; 
+  }
+  .content {
+    display: block;
+    float: left;
+    width: 65%;
+    padding: 0 1rem 0 2rem; 
+  }
+  .aside {
+    display: block;
+    margin: 0 0 0 65%;
+    width: 35%;
+    padding: 0 2rem 0 2rem;
+    border-top: none; 
+  }
+  .nav-ul {
+    padding: 0 2rem;
+    overflow: hidden;	
+  }
+  .nav-li {
+      float: left;
+      display: inline-block;
+      border: none;
+      width: auto; 
+   }
+   .nav-li-a{
+     padding: 0.7em 1.2rem;
+     display: inline-block;
+    }
+}    

@@ -1,0 +1,10 @@
+/*   Styles for the example: /examples/chapter011/11_5_7/index2.html
+*/
+.img_radius {
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px gray;
+}
+.img_ellipse {
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px gray;
+}

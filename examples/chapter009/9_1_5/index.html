@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>An attribute selector for attributes with a specific attribute value</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1>[title=deprecated]</h1>
+  <p>The HTML element <code title="deprecated">center</code> has been
+     declared deprecated and should be implemented by a CSS solution like
+     <code>text-align: center</code>,
+     for example.</p> 
+  <h1>[title~=Rheinwerk]</h1>
+  <ul>
+    <li><a href="https://www.sap-press.com/"
+           title="To Rheinwerk-Publishing website">
+              Rheinwerk Publishing</a></li>
+    <li><a href="http://de.wikipedia.org/wiki/Rheinwerk_Verlag"
+           title="To the Wikipedia page of Rheinwerk">
+              Rheinwerk at Wikipedia (German language)</a></li> 
+  </ul>
+  <h1>[hreflang|=en]</h1>
+  <ul>
+    <li><a href="http://en.anywhere.com/" hreflang="en-us">
+           US English version</a></li>
+    <li><a href="http://en.anywhere.com/" hreflang="de-de">
+           German version</a></li> 
+  </ul>
+  
+</body>
+
+</html>

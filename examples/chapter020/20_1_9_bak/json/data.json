@@ -1,0 +1,17 @@
+[
+  {
+    "url":"http://www.portland.com/",
+    "city":"Portland",
+    "zipCode":97217
+  },
+  {
+    "url":"http://www.sanfrancisco.com/",
+    "city":"San Francisco",
+    "zipCode":94104
+  },
+  {
+    "url":"http://www.philadelphia.com/",
+    "city":"Philadelphia",
+    "zipCode":19099
+  }
+]

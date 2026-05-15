@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Formular</title>
+    <link href="css/style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Kontakt-Formular</h1>
+    <form id="myForm" method="post">
+        <fieldset>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Ihr Name">
+            </div>
+            <div>
+                <label for="vname">Vorname:</label>
+                <input type="text" name="vname" id="vname" placeholder="Ihr Vorname">
+            </div>
+            <div>
+                <label for="mail">E-Mail:</label>
+                <input type="email" name="mail" id="mail" placeholder="E-Mail-Adresse" required>
+                <label for="mail"></label>
+            </div>
+            <div>
+                <label for="geboren">Geburtsjahr:</label>
+                <input type="number" name="geboren" id="geboren" min="1920" max="2015" value="1990">
+            </div>
+            <div class="form_radio">
+                <label>Geschlecht:</label>
+                <input type="radio" name="geschlecht" id="male" value="male" class="nobreak">
+                <label for="male" class="nobreak">Männlich</label>
+                <input type="radio" name="geschlecht" id="female" value="female" class="nobreak">
+                <label for="female" class="nobreak">Weiblich</label>
+            </div>
+            <div>
+                <label for="nachricht">Ihre Nachricht:</label>
+                <textarea name="nachricht" id="nachricht" placeholder="Hier Nachricht eingeben..." rows="8" required></textarea>
+                <label for="nachricht"></label>
+            </div>
+            <div>
+                <input type="checkbox" name="reply" id="reply" value="reply" class="nobreak" required>
+                <label for="reply" class="nobreak">DSGVO-Einverständnis (<a href="#">Datenschutzerklärung</a>)</label>
+            </div>
+            <div>
+                <input name="absenden" type="submit" value="Absenden" class="nobreak">
+                <input name="Reset" type="reset" value="Zurücksetzen" class="nobreak">
+            </div>
+            <p>(⨉) = Eingabe erforderlich</p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

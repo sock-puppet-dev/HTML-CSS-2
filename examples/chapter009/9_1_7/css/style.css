@@ -1,0 +1,11 @@
+
+/* 
+   Styles for the example: /examples/chapter009/9_1_7/index.html
+*/
+a:link { color: red; }
+a:visited { color: green; }
+.articlestyle a:any-link { color: gray; }
+/* Chrome und Opera */
+.articlestyle a:-webkit-any-link { color: gray; }
+
+

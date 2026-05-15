@@ -1,0 +1,9 @@
+/*   Styles for the example: /examples/chapter011/11_5_3/index-bg.html
+*/
+.boximage {
+  background-image: url('../images/background.jpg');
+  width: 450px;
+  height: 196px;
+  border: black 3px solid;
+  color: white;
+}

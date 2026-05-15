@@ -1,0 +1,23 @@
+/*   Styles for the example: /examples/chapter011/11_5_3/index5.html
+*/
+*{
+  box-sizing: border-box;        
+}
+.headfoot {
+  width: 750px;
+  border: gray 1px dotted;
+  padding: 10px;
+  background-color: olivedrab;
+  color: white;
+  text-align: center;
+}
+.article01 {
+  width: 750px;
+  padding: 20px 50px;
+  margin: 10px 0px;
+  background: url('../images/left-top.jpg') top left no-repeat,
+              url('../images/right-top.jpg') top right no-repeat,
+              url('../images/bottom-right.jpg') bottom right no-repeat,
+              url('../images/bottom-left.jpg') bottom left no-repeat,
+              white;
+}

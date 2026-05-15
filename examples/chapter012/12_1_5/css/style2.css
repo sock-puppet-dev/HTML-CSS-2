@@ -1,0 +1,16 @@
+/* 
+   Styles for the example: /examples/chapter012/12_1_5/index2.html
+*/
+body {
+    width: 75%;
+}
+
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    border: 4px solid sienna;
+    background-color: sandybrown;
+    color: black;
+}

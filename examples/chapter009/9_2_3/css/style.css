@@ -1,0 +1,4 @@
+/* 
+   Styles for the example: /examples/chapter009/9_2_3/index.html
+*/
+article + p { background: lightblue; }

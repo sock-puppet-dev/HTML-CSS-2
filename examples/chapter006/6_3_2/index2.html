@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Loading the Appropriate Image Using picture</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  <h1>The picture element in use</h1>
+  <p>
+    <picture> 
+      <source srcset="images/HK-640-WebP.webp" type="image/webp">
+      <source srcset="images/HK-640-jpg.jpg">
+      <!-- Fallback for old browsers -->
+      <img src="images/HK-640.jpg" alt="Hong Kong Island">
+   </picture> 
+  </p>
+  </body>
+</html>

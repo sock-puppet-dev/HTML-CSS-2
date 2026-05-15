@@ -1,0 +1,15 @@
+/* 
+   Styles for the example: /examples/chapter011/11_1_3/index.html
+*/
+.article01 {
+  width: 600px;
+  border: 10px solid sienna;
+  background-color: antiquewhite;
+}
+.article02 {
+  width: 600px;
+  padding: 50px;
+  border: 10px solid peru;
+  background-color: antiquewhite;
+}
+.h_2 { background-color: sandybrown;}

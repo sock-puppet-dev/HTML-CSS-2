@@ -1,0 +1,16 @@
+/* File: style.css
+ */
+
+
+/* Styling for all elements with the attribute title
+ */
+[title] { border: 1px solid black; }
+
+
+/* Styling for all a elements with the attribute title
+ */
+/*a[title] {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}*/

@@ -1,0 +1,13 @@
+html { font-size: 3vw; }
+body { 
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+footer, header {
+  background-color: papayawhip;
+  border: 1px solid black;
+  padding: 2% 2%;
+  text-align:center;
+} 
+article {
+  font-family: Georgia, Times, serif;
+ }

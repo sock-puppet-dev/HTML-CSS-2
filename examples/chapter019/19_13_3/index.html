@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reading radio buttons and checkboxes with JavaScript</title>
+</head>
+
+<body>
+    <h1>Reading radio buttons and checkboxes</h1>
+    <form>
+        <form>
+            <p>Please select a room:</p>
+            <p>
+              <input type="radio" name="room" value="budget">Budget<br>
+              <input type="radio" name="room" value="standard"
+                     checked>Standard<br>
+              <input type="radio" name="room" value="deluxe">Deluxe
+            </p>
+            <p id="printRoom"></p>
+            <p>
+              <input type="checkbox" name="extra" id="c1"
+                     value="breakfast">
+              <label for="c1">Breakfast</label><br>
+              <input type="checkbox" name="extra" id="c2" value="lunch">
+              <label for="c2">Lunch</label><br>
+              <input type="checkbox" name="extra" id="c3" value="dinner">
+              <label for="c3">Dinner</label>
+            </p>
+            <p class="output"></p>
+          </form>
+          <script src="js/script.js"></script>
+          
+</body>
+
+</html>

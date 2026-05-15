@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Text Markups</title>
+    <meta charset="UTF-8">
+    <style>
+        header {
+            background: snow;
+            border: 1px dashed black;
+            padding: 10px
+        }
+        
+        footer {
+            background: snow;
+            border: 1px dashed black;
+            padding: 10px;
+        }
+        
+        article {
+            padding-left: 25px;
+            padding-right: 25px;
+            text-align: justify;
+        }
+        
+        kbd {
+            font-weight: bold;
+        }
+        
+        samp {
+            color: grey;
+        }
+        
+        u.spell-checker {
+            text-decoration: none;
+            border-bottom: 1px dashed red;
+        }
+       /*  q {quotes: '»' '«' '›' '‹';} */
+      /*  
+      q:before {content: '»'; content: open-quote;}
+      q:after {content: '«'; content: close-quote;}
+      q q:before {content: '›'; content: open-quote;}
+      q q:after {content: '‹'; content: close-quote;}
+      */
+        
+        time {
+            border-bottom: 1px dotted blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Text Markups</h1>
+        <p>Demonstrates various text markups</p>
+    </header>
+    <main>
+        <article>
+            <h2>Abbreviations or acronyms using abbr</h2>
+            <p>The <abbr title="world wide web">WWW</abbr> is teeming with
+                abbreviations.
+             </p>
+        </article>
+        <article>
+            <h2>Marking up text as the source of a working title using cite</h2>
+            <p>According to the book <cite>HTML and CSS—The Comprehensive
+                Handbook</cite> it should read:
+             </p>             
+            <blockquote>In HTML 4.01, this element was also used for short quotations. In new HTML, the semantic meaning has been converted and should now only be used for working titles.</blockquote>
+        </article>
+        <article>
+            <h2>Computer code representation using  <code>code</code></h2>
+            <p>The <code>code</code> element does not contain any attributes.</p>
+        </article>
+        <article>
+            <h2>A preformatted text with pre</h2>
+            <p>Here is a source code snippet of a C program:</p>
+            <figure>
+                
+                <pre><code>#include &lt;stdio.h&gt;
+                
+int main(void)
+{
+    puts("Hello World!");
+    return 0;
+}</code></pre>
+                
+                <figcaption>Listing 1: Hello World in C</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <h2>Keyboard input with kbd and program output with samp</h2>
+            <p>You can use <kbd>Strg</kbd> + <kbd>A</kbd> to mark up the entire text.</p>
+            <pre>term#1&gt; <kbd>gcc -o Wall hello hello.c</kbd>
+term#1&gt; <kbd>./hello</kbd>
+<samp>Hello World!</samp>
+term#1&gt;</pre>
+            
+        </article>
+        <article>
+            <h2>Marking up a text as a definition using dfn</h2>
+            <p>A <dfn>smartphone</dfn>—as opposed to a
+                cell phone—provides more
+                computer functionality and better connectivity.
+             </p>
+             
+        </article>
+        <article>
+            <h2>Marking up text as a variable using var</h2>
+            <p>The radius <var>r</var> is equal to
+                half the diameter <var>d</var>.
+             </p>          
+        </article>
+        <article>
+            <h2>Changing the text direction using bdo and bdi</h2>
+            <p><bdo dir="rtl">Never odd or even</bdo></p>
+            <p>שלום</p>
+            <p><bdi>السلام عليكم</bdi>: 1 (as-salaam alaykum)</p>
+            <p><bdi>שלום</bdi>: 2 (shalom)</p>
+            <p>Howdy: 3 (greetings in the rural Southern United States)</p>
+        </article>
+        <article>
+            <h2>Emphasizing text using em, strong, i, and b</h2>
+            <p><em>Bear</em>! Who the hell is this <em>Bear</em>!</p>
+            <p><strong>Caution!</strong> <em>Bear</em> could be standing behind you!</p>
+            <p><strong>Delivery date in <strong><em>summer 2023</em></strong></strong></p>
+            
+        </article>
+        <article>
+            <h2>Highlighting text using mark</h2>
+            <p>In 2021, profits have increased by
+                <mark>100 percent</mark>.
+             </p>
+             <p>Here is a source code snippet of a C program:</p>
+             <pre><code>#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    <mark>puts("Hello world!");</mark>
+    return 0;
+}</code></pre>              
+        </article>
+        <article>
+            <h2>Placing text between quotes using  q</h2>
+            <p>Wolf asked: <q cite="http://tom-bear.com/">
+                <em>Bear</em>! Who the hell is this <em>Bear</em>!</q>
+             </p>
+             <p>Fox replied: <q>Caution! <q><em>Bear</em></q> could be
+                standing behind you!</q>
+             </p>
+             
+        </article>
+        <article>
+            <h2>Underlining or crossing out text using s and u</h2>
+            <p>You can place a text in the middle with
+                <s><code>&lt;center&gt;</code> or</s> the 
+                CSS feature <code>text-align</code> and the value
+                <var>center</var>.
+             </p>
+             
+            <p>我来自<u>德国</u>。= I am from Germany.</p>
+            <p>Also, <u  class="spell-checker">spellig errors</u>
+                can be marked with it.
+             </p>
+             
+        </article>
+        <article>
+            <h2>Marking changes of text using  del und ins</h2>
+            <del>
+                <p>The singer performs on 1/1/2024 in the concert hall!</p>
+              </del>
+              <ins>
+                <p>The concert was canceled,
+                   because the singer is sick!</p>
+              </ins>
+              
+        </article>
+        <article>
+            <h2>Displaying text as superscript or subscript using sub und sup</h2>
+            <p><sup>[1]</sup> Reaction scheme: 2 H<sub>2</sub>O
+                &RightArrow; 2 H<sub>2</sub> + O<sub>2</sub></p>
+             <p><sup>[2]</sup> Calculate circular area: A = &pi; * r
+                <sup>2</sup></p>
+             
+            <p><sub>[1] = http://wikipedia.org/wiki/Water</sub><br>
+                <sub>[2] = http://wikipedia.org/wiki/Circle</sub></p>
+        </article>
+        <article>
+            <header>
+                <h2>Marking dates and times using time</h2>
+                <time datetime="2023-08-01">1. August 2023</time>
+            </header>
+            <p>We met on my <time datetime="2023-11-12">
+                44th birthday</time> at <em>Bear’s place</em>. 
+                <time datetime="20:00">at 8 pm.</time>
+             </p>
+           
+             <p>We met on my 
+                <time datetime="2023-11-12T20:00+00:00">44th birthday
+                </time> at <em>Bear’s place</em> at 8pm.
+             </p>
+             
+             <p>We met on <time>2023-11-12</time> at <em>Bear’s place</em>
+                at <time>20:00</time>
+             </p>
+             
+             <p>On every <time datetime="11-12">birthday</time> 
+                I got flowers.
+             </p>
+             
+             <p>The concert in the photo was recorded sometime in 
+                <time datetime="2023-08">August</time>
+                this year.
+             </p>
+             
+             <p>The rock festival lasted <time datetime="P3D">3
+                days</time>.
+             </p>
+             
+        </article>
+        <article>
+            <header>
+              <h2>Small print with small</h2>
+              <small>&copy; John Doe; 
+              <time datetime="2024-01-01">January 1, 2024</time></small>
+            </header>
+            <p>The shipment can be delivered in <time datetime="P2D">2 days</time>.
+               <small>(Due to high demand
+               it can also take longer (+1 day)).</small>
+            </p>
+          </article>
+          
+        <article>
+            <h2>ruby, rt und rp for annotations about the pronunciation</h2>
+            <p style="font-size:20pt;">  
+                <ruby>
+                    LOL<rp> (</rp><rt>Laugh Out Loud</rt><rp>)</rp>
+                  </ruby>
+                
+              
+            </p>
+            <p><small>More information: <a href="http://de.wikipedia.org/wiki/Ruby_Annotation">http://de.wikipedia.org/wiki/Ruby_Annotation</a></small></p>
+        </article>
+        <article>
+            <h2>Grouping ranges of individual text passages using span</h2>
+            <p>Current temperature <span id="temp">64</span> F</p>
+            <p>Formatting with <span style="text-decoration:overline;">
+                CSS</span> and the span element.</p>
+             
+        </article>
+    </main>
+    <footer>
+            <a href="#">Contact</a> |
+            <a href="#">FAQs</a> |
+            <a href="#">About me</a> |
+            <a href="#">Legal Notes</a>
+    </footer>
+</body>
+
+</html>

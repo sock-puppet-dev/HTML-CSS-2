@@ -1,0 +1,13 @@
+body { font: 1.125em/150% Arial, sans-serif; }
+footer, header {
+  background-color: papayawhip;
+  border: 1px solid black;
+  padding: 2%;
+  text-align:center;
+  font-size: 1.2em; 
+} 
+h1 { font-style: italic; }
+article {
+  font-family: Georgia, Times, serif;
+  font-size: 1em;
+ }

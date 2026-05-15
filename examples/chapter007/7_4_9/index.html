@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check email address</title>
+<style>
+  input[type='email']:invalid + label::after{
+    color:red;
+    content: " ⨉";
+}
+  input[type='email']:valid + label::after{
+    color: green;
+    content: " ✓"; }
+</style>
+
+</head>
+<body>
+    <h1>Check email address</h1>
+    <form>
+      E-Mail <input type="email" placeholder="E-Mail" id="em" required>
+      <label for="em"></label>
+      <input type="submit">
+    </form>
+</body>
+</html>

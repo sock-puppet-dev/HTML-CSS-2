@@ -1,0 +1,26 @@
+/* File: style3.css
+ */
+
+/* 
+   all a elements where the attribute href starts with http://
+ */
+ a[href^="http://"] {
+  text-decoration: none;
+  border-bottom: 1px dotted blue; /* dotted blue. Underscore */
+ }
+ 
+ /* 
+    all a elements where the href attribute ends with .pdf
+  */
+ a[href$=".pdf"] {
+   text-decoration: none;
+   color: black;
+   padding: 1px;
+   border: 2px dotted gray; /* gray frame around it */
+ }
+ /* 
+    a elements where the href attribute contains the text string,
+    mydomain
+  */
+ a[href*=mydomain] { font-weight: bold; }  /* Boldface */
+ 

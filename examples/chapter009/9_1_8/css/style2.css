@@ -1,0 +1,7 @@
+/* 
+   Styles for the example: /examples/chapter009/9_1_8/index2.html
+*/
+* { background-color: white; }
+body { padding: 5px; }
+:first-child { border: 2px solid black;  }
+:last-child { border: 2px dotted gray; }

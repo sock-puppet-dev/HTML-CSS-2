@@ -1,0 +1,8 @@
+body {
+    font: 1.1em/120% Georgia, Times, serif;
+}
+
+.table-fixed {
+    table-layout: fixed;
+    width: 500px;
+}

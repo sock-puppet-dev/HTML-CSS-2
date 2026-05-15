@@ -1,0 +1,32 @@
+/* 
+   Styles for the example: /examples/chapter012/12_3/index3.html
+*/
+   .float-left {
+        float: left;
+        margin: 0 1rem 1rem 0;
+    }
+    
+    .head-foot {
+        background-color: gray;
+        padding: 2rem;
+        text-align: center;
+        color: white;
+    }
+    
+   .article-bg {
+        background-color: lightgray;
+        overflow: hidden;
+   }
+    
+   @supports(display: flow-root) {
+        .article-bg {
+            display: flow-root;
+            overflow: initial;
+            background-color: lightgray;
+        }
+    }
+    
+    h1,
+    p {
+        margin: 0;
+    }

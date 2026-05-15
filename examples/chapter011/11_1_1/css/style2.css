@@ -1,0 +1,10 @@
+/* 
+   Styles for the example: /examples/chapter011/11_1_1/index2.html
+*/
+.article_01 {
+  width: 230px;
+  height: 215px;
+  background-color: antiquewhite;
+  border: black 1px solid;
+  /* overflow: hidden; */
+}

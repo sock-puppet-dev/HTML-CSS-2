@@ -1,0 +1,16 @@
+/*   Styles for the example: /examples/chapter011/11_1_6/index2.html
+*/
+.headfoot {
+  width: 600px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: sandybrown;
+  margin: 5px 0px;
+  text-align: center;
+}
+.article01 {
+  width: 578px;
+  padding: 15px;
+  border: 2px dotted sienna;
+  background-color: antiquewhite;
+}

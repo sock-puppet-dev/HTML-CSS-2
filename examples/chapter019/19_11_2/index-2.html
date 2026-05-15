@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bubbling</title>
+    <style>
+        article {
+            padding: 15px;
+            border: 1px solid black;
+            background-color: peachpuff;
+        }
+        
+        p {
+            background-color: sandybrown;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article onmousedown="getMouseArticle()">
+        <h1>Demonstrates bubbling</h1>
+        <p onmousedown="getMouseP(event)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo eget dolor. Aenean massa.
+        </p>
+    </article>
+
+    <script src="js/script-2.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+/*   Styles for the example: /examples/chapter011/11_5_2/index.html
+*/
+.blueborder {
+    background-color: lightblue;
+    width: 85%;
+    padding: 5px;
+    border: darkblue 7px ridge;
+}

@@ -1,0 +1,7 @@
+/* 
+   Styles for the example: /examples/chapter012/12_3/index.html
+*/
+figure {
+    float: left;
+    margin: 0 1rem 0 0;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>template-Tag</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <h1>Scheduling overview</h1>
+    <table id="mytable">
+    <thead>
+    <tr>
+    <td>Time</td>
+    <td>Day</td>
+    <td>Date</td>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <!-- The rows are added here -->
+    
+    </tbody>
+    </table>
+    
+    <!-- Rows template -->
+    <template id="template-row">
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    </template>
+    
+
+    <script>
+        let data = [
+            ['12pm','Monday','Photography Workshop in Munich'],
+            ['7pm', 'Monday', 'Dinner with customer X'],
+            ['9am', 'Tuesday', 'Meeting with Y'],
+            ['12pm', 'Tuesday', 'Lunch with Y at the Ritz'],
+            ['3pm', 'Wednesday', 'Self-Development (Seminar)']
+        ];
+
+
+        let t = document.querySelector('#template-row');
+        td = t.content.querySelectorAll('td');
+
+        data.forEach(function(dataRow) {
+            td[0].textContent = dataRow[0];
+            td[1].textContent = dataRow[1];
+            td[2].textContent = dataRow[2];
+
+            let tb = document.querySelector('tbody');
+            let clone = document.importNode(t.content, true);
+            tb.appendChild(clone);
+
+        });
+    </script>
+
+</body>
+
+</html>

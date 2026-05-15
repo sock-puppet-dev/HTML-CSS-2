@@ -1,0 +1,8 @@
+/*   Styles for the example: /examples/chapter011/11_5_1/index2.html
+*/
+.designborder {
+    width: 500px;
+    padding: 10px;
+    border: 25px solid transparent;
+    border-image: url("../images/myborder.svg") 50 50 50 50 round;
+}
